@@ -1,0 +1,147 @@
+div#content div {
+	display: inline-table;
+}
+
+/* @group Video Player */
+
+div#videoplayer {
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 480px;
+	padding: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+div#videoplayer * {
+	display: inline;
+}
+
+div#controls {
+	display: block;
+	background-color: rgba(100, 100, 100, .8);
+	height: auto;
+	width: 480px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+}
+
+#player {
+	width: 480px;
+	height: 320px;
+	margin-left: 0px;
+}
+
+#player * {
+	height: 320px;
+}
+
+/* @end */
+
+/* @group Information Panel */
+
+div#infopanel {
+	padding: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: rgba(0, 0, 0, .8);
+	margin: 20px;
+	width: 360px;
+	float: right;
+}
+
+div#infopanel img {
+	width: 400px;
+	height: 72px;
+}
+
+div#infopanel td {
+	font-size: small;
+	line-height: 1.5em;
+	color: white;
+	margin-left: 0;
+	display: table;
+}
+
+
+
+/* @end */
+
+/* @group Comments */
+
+div#comments-container {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: rgba(0, 0, 0, .8);
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 500px;
+}
+
+div#comments {
+	width: 100%;
+}
+
+/* @group Comment */
+
+div.comment {
+	display: block;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 5px;
+	width: 100%;
+	background-color: rgba(202, 202, 202, .8);
+	min-height: 60px;
+	margin-bottom: 10px;
+}
+
+div.comment a.ctxt {
+
+}
+
+div.comment div.author {
+	width: 200px;
+	max-height: 60px;
+	background-color: rgba(50, 50, 50, 1);
+}
+
+
+div.comment div.author img {
+	margin: 4px;
+}
+
+div.comment a.name {
+	display: inline-table;
+}
+
+
+
+/* @end */
+
+/* @group Comment Box */
+
+div#commentbox {
+	width: 100%;
+	padding: 10px 20px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: skyblue;
+}
+
+div#commentbox h1 {
+	font-size: large;
+	margin: 0px;
+}
+
+div#commentbox form {
+	padding-top: 10px;
+}
+
+/* @end */
+
+/* @end */

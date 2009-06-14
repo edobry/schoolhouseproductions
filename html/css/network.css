@@ -1,0 +1,77 @@
+/* @override 
+	http://lordkenthegreat.com/media/css/network.css
+*/
+
+.network * {
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: #999;
+	display: inline;
+}
+
+html, body {	
+	height: 100%;
+}
+
+/* @group Title */
+
+div#title {
+	padding-right: 10px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	background-image: none;
+	background-color: rgba(0, 0, 0, .7);
+}
+
+h1#t1 {
+	color: red;
+}
+
+h1#t2 {
+	color: lime;
+}
+
+
+
+/* @end */
+
+/* @group Navigation Links */
+
+.network a {
+	color: white;
+	font-size: x-small;
+	text-decoration: none;
+}
+
+.network a:hover {
+	color: lime;
+}
+
+.network h1 {
+	display: inline;
+	font: x-small "Courier New", Courier, mono;
+}
+
+.network h2 {
+	font: x-small "Courier New", Courier, mono;
+}
+
+a.flink {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div#search.flink {
+	float: right;
+}
+
+.network input {
+	color: black;
+	border: 1px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+
+/* @end */
+
